@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Mall - Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Our Mall</h1>
+                <nav class="navbar">
+                 <div class="logo"></div>
+                    <div class="nav-items">
+                    <a href="index.html">Home</a>
+                    <a href="store.html">Store</a>
+                    <a href="offer.html">Offer</a>
+                    <a href="Aboutus.html">About Us</a>
+                    <a href="faq.html">FAQ</a>
+                    <a href="contactUS.html">Contact Us</a>
+                    </div>
+        <a href=""><button class="sign-up-btn">Sign Up</button>
+        <button class="log-in-btn">Log In</button></a>
+       
+        
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="contact-banner" class="banner">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>Get in touch with us for any queries or feedback.</p>
+            </div>
+        </section>
+
+        <section id="contact-info">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <div class="contact-details">
+                    <p><strong>Email:</strong> contact@ourmall.com</p>
+                    <p><strong>Phone:</strong> +1 234 567 890</p>
+                    <p><strong>Address:</strong> 123 Mall Road, Shopping City, SC 12345</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-form">
+            <div class="container">
+                <h2>Send Us a Message</h2>
+                <form action="submit-form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="contact-map">
+            <div class="container">
+                <h2>Find Us Here</h2>
+                <!-- Embed your Google Maps location here -->
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d243647.3161244542!2d-74.00357185!3d40.71277585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1643888429154!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Our Mall</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
